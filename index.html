@@ -1,335 +1,366 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!-- The new doctype -->
 <html>
-<head>
-<title>Machine Bootstarp Website Template | Home :: w3layouts</title>
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="js/jquery.min.js"></script>
-<!-- Custom Theme files -->
-<!--theme-style-->
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	
-<!--//theme-style-->
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!--fonts-->
-<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
-<!--//fonts-->
-<script src="js/jquery.chocolat.js"></script>
-		<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" charset="utf-8" />
-		<!--light-box-files -->
-		<script type="text/javascript" charset="utf-8">
-		$(function() {
-			$('#example1 a').Chocolat();
-		});
-		</script>
-</head>
-<body> 
-<!--header-->
-	<div class="header">
-		<div class="header-top">
-			<div class="container">
-				<div class="top-nav">
-					<span class="menu"> </span>
-					<ul>
-						<li  ><a href="index.html" class="scroll"><span data-hover="COMPANY">COMPANY</span></a><label> </label></li>
-						<li><a href="products.html" class="scroll"> <span data-hover="PRODUCTS">PRODUCTS</span></a><label> </label></li>
-						<li><a href="services.html" class="scroll"><span data-hover="SERVICES">SERVICES</span></a><label> </label></li>
-						<li><a href="404.html" class="scroll"><span data-hover="RESOURCES">RESOURCES</span></a><label> </label></li>
-						<li><a href="contact.html" class="scroll"><span data-hover="CONTACTS">CONTACTS</span></a><label> </label></li>
-						<li><a href="blog.html" class="scroll"><span data-hover="BLOG">BLOG</span></a></li>
-					</ul>
-					<!--script-->
-				<script>
-					$("span.menu").click(function(){
-						$(".top-nav ul").slideToggle(500, function(){
-						});
-					});
-			</script>
-				</div>
-				 <div class="search-box">
-					    <div id="sb-search" class="sb-search">
-							<form>
-								<input class="sb-search-input" placeholder="Enter your search term..." type="search" name="search" id="search">
-								<input class="sb-search-submit" type="submit" value="">
-								<span class="sb-icon-search"> </span>
-							</form>
-						</div>
-				    </div>
-					<!-- search-scripts -->
-					<script src="js/classie.js"></script>
-					<script src="js/uisearch.js"></script>
-						<script>
-							new UISearch( document.getElementById( 'sb-search' ) );
-						</script>
-					<!-- //search-scripts -->
-			<div class="clearfix"> </div>
-		</div>
-		</div>
-		<div class="header-bottom">
-			<div class="container">
-			<div class="logo">
-					<a href="index.html"><img src="images/logo.png" alt=" " /></a>
-			</div>
-			<div class="top-tele">
-					<div class="in-phone"><i class="phone"> </i>
-					<div class="number">
-						<p>Phone:</p>
-						<span>+128-658-5876(248-order)</span>
-					</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="in-phone-in"><i class="phone new-phone"> </i>
-					<div class="number">
-						<p>Location:</p>
-						<span>2485- mirus Road</span>
-						<span> Dlowa D05 GSRT</span>
-					</div>
-						<div class="clearfix"> </div>
-					</div>
-			</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-	</div>
-	<!--banner-->
-	<script src="js/responsiveslides.min.js"></script>
-	<script>
-    $(function () {
-      $("#slider").responsiveSlides({
-      	auto: true,
-      	speed: 500,
-        namespace: "callbacks",
-        pager: true,
-      });
-    });
-  </script>
-	<div class="slider">
-	    <div class="callbacks_container">
-	      <ul class="rslides" id="slider">
-	        <li>
-	          <img src="images/banner.jpg" alt="">
-	          <div class="banner">
-				<h2>Professional Industrial <span>Solutions</span></h2>
-				<a href="#" class="read-more">CLICK HERE</a>
-			</div>
-	        </li>
-	        <li>
-	          <img src="images/banner1.jpg" alt="">
-	        	 <div class="banner">
-				<h2>Professional Industrial <span>Solutions</span></h2>
-				<a href="#" class="read-more">CLICK HERE</a>
-			</div>
-	        </li>
-	        <li>
-	          <img src="images/banner.jpg" alt="">
-	         <div class="banner">
-				<h2>Professional Industrial <span>Solutions</span></h2>
-				<a href="#" class="read-more">CLICK HERE</a>
-			</div>
-	        </li>
-	      </ul>
-	  </div>
-	  </div>
-	<!---->
-	<!--content-->
-	<div class="content">
-		<div class="content-welcome">
-			<div class="container">
-			<div class="more">
-			<h3>Hello and  Welcome to our company</h3>
-			<p>Lorem Ipsum Dolor sit amit , consecteter adisipicing elit sed do euismod.</p>
-			</div>
-				<a href="#" class="read-more info-left">MORE INFO</a>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-		<div class="content-bottom-grid">
-			<div class="container">
-				<div class="content-bottom">
-					<h3>For all your welding nedds</h3>
-					<span><i>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt</i></span>
-					<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore </p>
-				</div>
-				<div class="content-grid-in">
-					<div class="col-md-4 in-top-content">
-						<div class="in-content">
-							<h4>STAFFING</h4>
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod </p>
-							<a href="#" class="read-more in-more">MORE</a>
-						</div>
-						<div class="in-content-in">
-						<a href="single.html"><img class="img-responsive" src="images/pic.jpg" alt="" /></a>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="col-md-4 in-top-content">
-						<div class="in-content">
-							<h4>STAFFING</h4>
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod </p>
-							<a href="#" class="read-more in-more">MORE</a>
-						</div>
-						<div class="in-content-in">
-						<a href="single.html"><img class="img-responsive" src="images/pic1.jpg" alt="" /></a>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="col-md-4 in-top-content">
-						<div class="in-content">
-							<h4>STAFFING</h4>
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod </p>
-							<a href="#" class="read-more in-more">MORE</a>
-						</div>
-						<div class="in-content-in">
-						<a href="single.html"><img class="img-responsive" src="images/pic2.jpg" alt="" /></a>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="bottom-in-set">
-				<a class="blub" href="#"> <span ></span></a>
-				<p class="in-due">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore</p>
-				<div class="clearfix"> </div>
-				</div>
-			</div>
-		</div>
-		<!-- requried-jsfiles-for owl -->
-							<link href="css/owl.carousel.css" rel="stylesheet">
-							    <script src="js/owl.carousel.js"></script>
-							        <script>
-									    $(document).ready(function() {
-									      $("#owl-demo").owlCarousel({
-									        items : 4,
-									        lazyLoad : true,
-									        autoPlay : true,
-									        navigation : true,
-									        navigationText :  true,
-									        pagination : false,
-									      });
-									    });
-									  </script>
-							 <!-- //requried-jsfiles-for owl -->
+    <head>
+    
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        
+        <title>Coding A CSS3 &amp; HTML5 One Page Template | Tutorialzine demo</title>
+        
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+        
+        <!-- Internet Explorer HTML5 enabling code: -->
+        
+        <!--[if IE]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        
+        <style type="text/css">
+        .clear {
+          zoom: 1;
+          display: block;
+        }
+        </style>
 
-		<!-- start content_slider -->
-		<div id="example1">
-		<div id="owl-demo" class="owl-carousel text-center">
-			<div class="item">
-				<a href="images/pc.jpg" title="Rose" rel="title1">
-					<img class="img-responsive lot" src="images/pc.jpg" alt="">
-				</a>
-			</div>
-			<div class="item">
-				<a href="images/pc1.jpg" title="Rose" rel="title1">
-					<img class="img-responsive lot" src="images/pc1.jpg" alt="">
-				</a>
-			</div>
-			<div class="item">
-				<a href="images/pc2.jpg" title="Rose" rel="title1">
-					<img class="img-responsive lot" src="images/pc2.jpg" alt="">
-				</a>
-			</div>
-			<div class="item">
-				<a href="images/pc3.jpg" title="Rose" rel="title1">
-					<img class="img-responsive lot" src="images/pc3.jpg" alt="">
-				</a>
-			</div>
-			<div class="item">
-				<a href="images/pc.jpg" title="Rose" rel="title1">
-					<img class="img-responsive lot" src="images/pc.jpg" alt="">
-				</a>
-			</div>
-			<div class="item">
-				<a href="images/pc1.jpg" title="Rose" rel="title1">
-					<img class="img-responsive lot" src="images/pc1.jpg" alt="">
-				</a>
-			</div>
-			<div class="item">
-				<a href="images/pc2.jpg" title="Rose" rel="title1">
-					<img class="img-responsive lot" src="images/pc2.jpg" alt="">
-				</a>
-			</div>
-			<div class="item">
-				<a href="images/pc3.jpg" title="Rose" rel="title1">
-					<img class="img-responsive lot" src="images/pc3.jpg" alt="">
-				</a>
-			</div>
-		</div>
-		</div>
-		<!--//sreen-gallery-cursual---->
-		<div class="content-in-on">
-		<h4>Kind Words from clients</h4>
-							 <!-- start content_slider -->
-							 <div class="wmuSlider example2">
-				   <div class="wmuSliderWrapper">
-					   <article style="position: absolute; width: 100%; opacity: 0;">
-							<div class=" item-in">
-								<b class="down-arrow"> </b>										  
-								<p><i>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500. when an unknown printer took a galley of type and scrambled it to make a type specimen book</i></p>
-								<b class=" in-usa"> </b>
-								<label> </label>
-								<span>Mirem ipsum ,USA</span>
-							</div>	
-					 	</article>
-						<article style="position: absolute; width: 100%; opacity: 0;">
-							<div class=" item-in">
-								<b class="down-arrow"> </b>										  
-								<p><i>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500. when an unknown printer took a galley of type and scrambled it to make a type specimen book</i></p>
-								<b class=" in-usa"> </b>
-								<label> </label>
-								<span>Mirem ipsum ,USA</span>
-							</div>	
-					 	</article>
-						<article style="position: absolute; width: 100%; opacity: 0;">
-							<div class=" item-in">
-								<b class="down-arrow"> </b>										  
-								<p><i>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500. when an unknown printer took a galley of type and scrambled it to make a type specimen book</i></p>
-								<b class=" in-usa"> </b>
-								<label> </label>
-								<span>Mirem ipsum ,USA</span>
-							</div>	
-					 	</article>
-					 	
-					 </div>
-	                <ul class="wmuSliderPagination">
-	                	<li><a href="#" class="">0</a></li>
-	                	<li><a href="#" class="">1</a></li>
-	                	<li><a href="#" class="">2</a></li>
-	                </ul>
-	            </div>
-	            <script src="js/jquery.wmuSlider.js"></script> 
-				  <script>
-	       			$('.example2').wmuSlider();         
-	   		     </script> 	           	         
+        
+        <![endif]-->
+        
+		
+<style>
 
-							 <!---->
-						     
-			</div>
-	</div>
-	<!--footer-->
-	<div class="footer">
-		<div class="container">
-		<div class="footer-top">
-			<div class="col-md-3 footer-in">
-			<h5>Newsletter</h5>
-			</div>
-			<div class="col-md-6 mail">
-				<input type="text" value="ENTER EMAIL" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='ENTER EMAIL';}">
-			</div>
-			<div class="col-md-3 send">
-				<input type="submit" value="SUBSCRIBE" >
-			</div>
-			<div class="clearfix"> </div>
-		</div>
-			<div class="foter-bottom">
-					<ul class="social-ic-icons">
-						<li class="facebook"><a href="#"><span> </span></a></li>
-						<li class="twitter"><a href="#"><span> </span></a></li>
-						<li class="gmail"><a href="#"><span> </span></a></li>
-						<li class="print"><a href="#"><span> </span></a></li>
-					</ul>
-				 <p class="footer-grid">Designed by <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
-			</div>
-		</div>
-	</div>
-</body>
+
+*{
+	/* Universal reset: */
+	margin:0;
+	padding:0;
+}
+
+header,footer,
+article,section,
+hgroup,nav,
+figure{
+	/* Giving a display value to the HTML5 rendered elements: */
+	display:block;
+}
+
+body{
+	/* Setting the default text color, size, page background and a font stack: */
+	font-size:0.825em;
+	color:#fcfcfc;
+	background-color:#355664;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Hyperlink Styles: */
+
+a, a:visited {
+	color:#0196e3;
+	text-decoration:none;
+	outline:none;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+a img{
+	border:none;
+}
+
+/* Headings: */
+
+h1,h2,h3{
+	font-family:"Myriad Pro","Helvetica Neue",Helvetica,Arial,Sans-Serif;
+	text-shadow:0 1px 1px black;
+}
+
+h1{
+	/* The logo text */
+	font-size:3.5em;
+	padding:0.5em 0 0;
+	text-transform:uppercase;
+}
+
+h3{
+	/* The slogan text */
+	font-family:forte,"Myriad Pro","Helvetica Neue",Helvetica,Arial,Sans-Serif;
+	font-size:2em;
+	font-weight:normal;
+	margin:0 0 1em;
+}
+
+
+h2{
+	font-size:2.2em;
+	font-weight:normal;
+	letter-spacing:0.01em;
+	text-transform:uppercase;
+}
+
+p{
+	line-height:1.5em;
+	padding-bottom:1em;
+}
+
+.line{
+	/* The dividing line: */
+	height:1px;
+	background-color:#24404c;
+	border-bottom:1px solid #416371;
+	margin:1em 0;
+	overflow:hidden;
+}
+
+article .line{
+	/* The dividing line inside of the article is darker: */
+	background-color:#15242a;
+	border-bottom-color:#204656;
+	margin:1.3em 0;
+}
+
+footer .line{
+	margin:2em 0;
+}
+
+nav{
+	background:url(img/gradient_light.jpg) repeat-x 50% 50% #f8f8f8;
+	padding:0 5px;
+	position:absolute;
+	right:0;
+	top:4em;
+	
+	border:1px solid #FCFCFC;
+
+	-moz-box-shadow:0 1px 1px #333333;
+	-webkit-box-shadow:0 1px 1px #333333;
+	box-shadow:0 1px 1px #333333;
+}
+
+/* The clearfix hack to clear the floats: */
+
+.clear:after{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+/* The navigation styling: */
+
+nav ul li{
+	display:inline;
+}
+
+nav ul li a,
+nav ul li a:visited{
+	color:#565656;
+	display:block;
+	float:left;
+	font-size:1.25em;
+	font-weight:bold;
+	margin:5px 2px;
+	padding:7px 10px 4px;
+	text-shadow:0 1px 1px white;
+	text-transform:uppercase;
+}
+
+nav ul li a:hover{
+	text-decoration:none;
+	background-color:#f0f0f0;
+}
+
+nav, article, nav ul li a,figure{
+	/* Applying CSS3 rounded corners: */
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+}
+
+/* Article styles: */
+
+#page{
+	width:960px;
+	margin:0 auto;
+	position:relative;
+}
+
+article{
+	background-color:#213E4A;
+	margin:3em 0;
+	padding:20px;
+	
+	text-shadow:0 2px 0 black;
+}
+
+figure{
+	border:3px solid #142830;
+	float:right;
+	height:300px;
+	margin-left:15px;
+	overflow:hidden;
+	width:500px;
+}
+
+figure:hover{
+	-moz-box-shadow:0 0 2px #4D7788;
+	-webkit-box-shadow:0 0 2px #4D7788;
+	box-shadow:0 0 2px #4D7788;
+}
+
+figure img{
+	margin-left:-60px;
+}
+
+/* Footer styling: */
+
+footer{
+	margin-bottom:30px;
+	text-align:center;
+	font-size:0.825em;
+}
+
+
+footer p{
+	margin-bottom:-2.5em;
+	position:relative;
+}
+
+footer a,footer a:visited{
+	color:#cccccc;
+	background-color:#213e4a;
+	display:block;
+	padding:2px 4px;
+	z-index:100;
+	position:relative;
+}
+
+footer a:hover{
+	text-decoration:none;
+	background-color:#142830;
+}
+
+footer a.by{
+	float:left;
+
+}
+
+footer a.up{
+	float:right;
+}
+
+
+</style>	
+	
+    </head>
+    
+    <body>
+    	
+    	<section id="page"> <!-- Defining the #page section with the section tag -->
+    
+            <header> <!-- Defining the header section of the page with the appropriate tag -->
+            
+                <hgroup>
+                    <h1>Your Logo</h1>
+                    <h3>and a fancy slogan</h3>
+                </hgroup>
+                                
+                <nav class="clear"> <!-- The nav link semantically marks your main site navigation -->
+                    <ul>
+                        <li><a href="#article1">Photoshoot</a></li>
+                        <li><a href="#article2">Sweet Tabs</a></li>
+                        <li><a href="#article3">Navigation Menu</a></li>
+                    </ul>
+                </nav>
+            
+            </header>
+            
+            <section id="articles"> <!-- A new section with the articles -->
+
+				<!-- Article 1 start -->
+
+                <div class="line"></div>  <!-- Dividing line -->
+                
+                <article id="article1"> <!-- The new article tag. The id is supplied so it can be scrolled into view. -->
+                    <h2>Photoshoot Effect</h2>
+                    
+                    <div class="line"></div>
+                    
+                    <div class="articleBody clear">
+                    
+                    	<figure> <!-- The figure tag marks data (usually an image) that is part of the article -->
+	                    	<a href="http://tutorialzine.com/2010/02/photo-shoot-css-jquery/"><img src="http://tutorialzine.com/img/featured/641.jpg" width="620" height="340" /></a>
+                        </figure>
+                        
+                        <p>In this tutorial, we are creating a photo shoot effect with our just-released PhotoShoot jQuery plug-in. With it you can convert a regular div on the page into a photo shooting stage simulating a camera-like feel.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer luctus quam quis nibh fringilla sit amet consectetur lectus malesuada. Sed nec libero erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mi nisi, rhoncus ut vestibulum ac, sollicitudin quis lorem. Duis felis dui, vulputate nec adipiscing nec, interdum vel tortor. Sed gravida, erat nec rutrum tincidunt, metus mauris imperdiet nunc, et elementum tortor nunc at eros. Donec malesuada congue molestie. Suspendisse potenti. Vestibulum cursus congue sem et feugiat. Morbi quis elit odio. </p>
+                    </div>
+                </article>
+                
+				<!-- Article 1 end -->
+
+
+				<!-- Article 2 start -->
+
+                <div class="line"></div>
+                
+                <article id="article2">
+                    <h2>Sweet AJAX Tabs</h2>
+                    
+                    <div class="line"></div>
+                    
+                    <div class="articleBody clear">
+                    	<figure>
+	                    	<a href="http://tutorialzine.com/2010/01/sweet-tabs-jquery-ajax-css/"><img src="http://tutorialzine.com/img/featured/633.jpg" width="620" height="340" /></a>
+                        </figure>
+                        
+                        <p>Here we are making sweet AJAX-powered tabs with CSS3 and the newly released version 1.4 of jQuery.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer luctus quam quis nibh fringilla sit amet consectetur lectus malesuada. Sed nec libero erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mi nisi, rhoncus ut vestibulum ac, sollicitudin quis lorem. Duis felis dui, vulputate nec adipiscing nec, interdum vel tortor. Sed gravida, erat nec rutrum tincidunt, metus mauris imperdiet nunc, et elementum tortor nunc at eros. Donec malesuada congue molestie. Suspendisse potenti. Vestibulum cursus congue sem et feugiat. Morbi quis elit odio. </p>
+                    </div>
+                </article>
+                
+				<!-- Article 2 end -->
+
+				<!-- Article 3 start -->
+
+                <div class="line"></div>
+                
+                <article id="article3">
+                    <h2>Halftone Navigation Menu</h2>
+                    
+                    <div class="line"></div>
+                    
+                    <div class="articleBody clear">
+                    	<figure>
+	                    	<a href="http://tutorialzine.com/2010/01/halftone-navigation-menu-jquery-css/"><img src="http://tutorialzine.com/img/featured/610.jpg" width="620" height="340" /></a>
+                        </figure>
+                        
+                        <p>Today we are making a CSS3 & jQuery halftone-style navigation menu, which will allow you to display animated halftone-style shapes in accordance with the navigation links, and will provide a simple editor for creating additional shapes as well.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer luctus quam quis nibh fringilla sit amet consectetur lectus malesuada. Sed nec libero erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mi nisi, rhoncus ut vestibulum ac, sollicitudin quis lorem. Duis felis dui, vulputate nec adipiscing nec, interdum vel tortor. Sed gravida, erat nec rutrum tincidunt, metus mauris imperdiet nunc, et elementum tortor nunc at eros. Donec malesuada congue molestie. Suspendisse potenti. Vestibulum cursus congue sem et feugiat. Morbi quis elit odio. </p>
+                    </div>
+                </article>
+                
+				<!-- Article 3 end -->
+
+
+            </section>
+
+        <footer> <!-- Marking the footer section -->
+
+           <div class="line"></div>
+           
+           <p>Copyright 2010 - YourSite.com</p> <!-- Change the copyright notice -->
+           
+           <a href="#" class="up">Go UP</a>
+           <a href="http://tutorialzine.com/2010/02/html5-css3-website-template/" class="by">Template by Tutorialzine</a>
+           
+
+        </footer>
+            
+		</section> <!-- Closing the #page section -->
+        
+        <!-- JavaScript Includes -->
+        
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+        <script src="jquery.scrollTo-1.4.2/jquery.scrollTo-min.js"></script>
+        <script src="script.js"></script>
+    </body>
 </html>
