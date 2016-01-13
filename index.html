@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html> <!-- The new doctype -->
 <html>
     <head>
@@ -19,20 +22,16 @@
           display: block;
         }
         </style>
-
         
         <![endif]-->
         
 		
 <style>
-
-
 *{
 	/* Universal reset: */
 	margin:0;
 	padding:0;
 }
-
 header,footer,
 article,section,
 hgroup,nav,
@@ -40,7 +39,6 @@ figure{
 	/* Giving a display value to the HTML5 rendered elements: */
 	display:block;
 }
-
 body{
 	/* Setting the default text color, size, page background and a font stack: */
 	font-size:0.825em;
@@ -48,37 +46,29 @@ body{
 	background-color:#355664;
 	font-family:Arial, Helvetica, sans-serif;
 }
-
 /* Hyperlink Styles: */
-
 a, a:visited {
 	color:#0196e3;
 	text-decoration:none;
 	outline:none;
 }
-
 a:hover{
 	text-decoration:underline;
 }
-
 a img{
 	border:none;
 }
-
 /* Headings: */
-
 h1,h2,h3{
 	font-family:"Myriad Pro","Helvetica Neue",Helvetica,Arial,Sans-Serif;
 	text-shadow:0 1px 1px black;
 }
-
 h1{
 	/* The logo text */
 	font-size:3.5em;
 	padding:0.5em 0 0;
 	text-transform:uppercase;
 }
-
 h3{
 	/* The slogan text */
 	font-family:forte,"Myriad Pro","Helvetica Neue",Helvetica,Arial,Sans-Serif;
@@ -86,20 +76,16 @@ h3{
 	font-weight:normal;
 	margin:0 0 1em;
 }
-
-
 h2{
 	font-size:2.2em;
 	font-weight:normal;
 	letter-spacing:0.01em;
 	text-transform:uppercase;
 }
-
 p{
 	line-height:1.5em;
 	padding-bottom:1em;
 }
-
 .line{
 	/* The dividing line: */
 	height:1px;
@@ -108,18 +94,15 @@ p{
 	margin:1em 0;
 	overflow:hidden;
 }
-
 article .line{
 	/* The dividing line inside of the article is darker: */
 	background-color:#15242a;
 	border-bottom-color:#204656;
 	margin:1.3em 0;
 }
-
 footer .line{
 	margin:2em 0;
 }
-
 nav{
 	background:url(img/gradient_light.jpg) repeat-x 50% 50% #f8f8f8;
 	padding:0 5px;
@@ -128,14 +111,11 @@ nav{
 	top:4em;
 	
 	border:1px solid #FCFCFC;
-
 	-moz-box-shadow:0 1px 1px #333333;
 	-webkit-box-shadow:0 1px 1px #333333;
 	box-shadow:0 1px 1px #333333;
 }
-
 /* The clearfix hack to clear the floats: */
-
 .clear:after{
 	content: ".";
 	display: block;
@@ -143,13 +123,10 @@ nav{
 	clear: both;
 	visibility: hidden;
 }
-
 /* The navigation styling: */
-
 nav ul li{
 	display:inline;
 }
-
 nav ul li a,
 nav ul li a:visited{
 	color:#565656;
@@ -162,27 +139,22 @@ nav ul li a:visited{
 	text-shadow:0 1px 1px white;
 	text-transform:uppercase;
 }
-
 nav ul li a:hover{
 	text-decoration:none;
 	background-color:#f0f0f0;
 }
-
 nav, article, nav ul li a,figure{
 	/* Applying CSS3 rounded corners: */
 	-moz-border-radius:10px;
 	-webkit-border-radius:10px;
 	border-radius:10px;
 }
-
 /* Article styles: */
-
 #page{
 	width:960px;
 	margin:0 auto;
 	position:relative;
 }
-
 article{
 	background-color:#213E4A;
 	margin:3em 0;
@@ -190,7 +162,6 @@ article{
 	
 	text-shadow:0 2px 0 black;
 }
-
 figure{
 	border:3px solid #142830;
 	float:right;
@@ -199,31 +170,24 @@ figure{
 	overflow:hidden;
 	width:500px;
 }
-
 figure:hover{
 	-moz-box-shadow:0 0 2px #4D7788;
 	-webkit-box-shadow:0 0 2px #4D7788;
 	box-shadow:0 0 2px #4D7788;
 }
-
 figure img{
 	margin-left:-60px;
 }
-
 /* Footer styling: */
-
 footer{
 	margin-bottom:30px;
 	text-align:center;
 	font-size:0.825em;
 }
-
-
 footer p{
 	margin-bottom:-2.5em;
 	position:relative;
 }
-
 footer a,footer a:visited{
 	color:#cccccc;
 	background-color:#213e4a;
@@ -232,22 +196,16 @@ footer a,footer a:visited{
 	z-index:100;
 	position:relative;
 }
-
 footer a:hover{
 	text-decoration:none;
 	background-color:#142830;
 }
-
 footer a.by{
 	float:left;
-
 }
-
 footer a.up{
 	float:right;
 }
-
-
 </style>	
 	
     </head>
@@ -343,6 +301,37 @@ footer a.up{
 
             </section>
 
+			
+			
+			
+		<form method='post' action="index.php">
+	
+		  Email: <input type='text' name='email' id='email' /><br />
+
+
+		  Comment:<br />
+		  <textarea name='comment' id='comment'></textarea><br />
+
+		  <input type='hidden' name='articleid' id='articleid' />
+
+		  <input type='submit' value='Submit' />  
+		</form>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
         <footer> <!-- Marking the footer section -->
 
            <div class="line"></div>
@@ -364,3 +353,45 @@ footer a.up{
         <script src="script.js"></script>
     </body>
 </html>
+<?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "dbblog";
+
+// Create connection
+$conn = mysqli_connect($servername, $username, $password, $dbname);
+// Check connection
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
+}
+
+$emailadd=$_POST['email'];
+$comment=$_POST['comment'];
+
+$sql = "INSERT INTO tblblog (emailadd, comment)
+VALUES ('$emailadd', '$comment')";
+
+if (mysqli_query($conn, $sql)) {
+    echo "New record created successfully";
+} else {
+    echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+}
+
+
+
+
+$sql = "SELECT id, emailadd, comment FROM tblblog";
+$result = $conn->query($sql);
+
+if ($result->num_rows > 0) {
+    // output data of each row
+    while($row = $result->fetch_assoc()) {
+        echo "id: " . $row["id"]. " - Name: " . $row["emailadd"]. " " . $row["comment"]. "<br>";
+    }
+} else {
+    echo "0 results";
+}
+
+mysqli_close($conn);
+?> 
